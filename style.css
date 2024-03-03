@@ -16,10 +16,12 @@ body {
 
 h1 {
   color: #333;
+  text-align: center;
 }
 
 p {
   color: #666;
+  text-align: center;
 }
 
 .tips {
@@ -39,4 +41,13 @@ p {
 
 .tip p {
   color: #666;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .tip {
+    padding: 5px;
+  }
 }
